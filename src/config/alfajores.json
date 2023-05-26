@@ -1,0 +1,32 @@
+{
+  "network": "alfajores",
+  "eth_key": "celo",
+  "chainId": 44787,
+  "defaultPrecision": 2,
+  "infuraKey": "e68cb3352f7d4fb7848c4650917e4422",
+  "rpcUrl": "https://alfajores-forno.celo-testnet.org",
+  "subgraphUrl": "https://api.thegraph.com/subgraphs/name/centfinance/cent-swap-alfajores",
+  "subgraphBackupUrl": "https://switch1983-team-bucket.storage.fleek.co/cent-exchange-alfajores/pools",
+  "addresses": {
+    "bFactory": "0x07Fa70d4560663E64b44a217AD40a926Dc5BdA5c",
+    "bActions": "0x05d52ee5455FDe856f7932B3ec58060484201cD6",
+    "dsProxyRegistry": "0xfbeDC68326cFbdF468e5375BF157266046519bC9",
+    "exchangeProxy": "0xa11622f082d0a8De2D80AfE7480297F8fB559A88",
+    "celo": "0xF194afDf50B03e69Bd7D057c1Aa9e10c9954E4C9",
+    "multicall": "0xCdcf5034D7CAF7aFDFbf7095f7398b93f719DE6E"
+  },
+  "connectors": {
+      "injected": {},
+      "celo": {
+        "id": "celo",
+        "name": "Celo Extension Wallet"
+      },
+      "walletconnect": {
+          "chainId": 44787,
+          "rpc": {
+            "44787": "https://alfajores-forno.celo-testnet.org"
+          },
+        "bridge": "https://walletconnect-relay.minerva.digital"
+      }
+  }
+}
